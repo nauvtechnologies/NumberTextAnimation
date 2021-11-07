@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D775EA2427382C2700F8706A /* NumberTextAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D775EA2327382C2700F8706A /* NumberTextAnimationApp.swift */; };
+		D775EA2627382C2700F8706A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D775EA2527382C2700F8706A /* ContentView.swift */; };
+		D775EA2827382C2900F8706A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D775EA2727382C2900F8706A /* Assets.xcassets */; };
+		D775EA2B27382C2900F8706A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D775EA2A27382C2900F8706A /* Preview Assets.xcassets */; };
+		D775EA3527382C2900F8706A /* NumberTextAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D775EA3427382C2900F8706A /* NumberTextAnimationTests.swift */; };
+		D775EA3F27382C2900F8706A /* NumberTextAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D775EA3E27382C2900F8706A /* NumberTextAnimationUITests.swift */; };
+		D775EA4127382C2900F8706A /* NumberTextAnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D775EA4027382C2900F8706A /* NumberTextAnimationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D775EA3127382C2900F8706A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D775EA1827382C2700F8706A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D775EA1F27382C2700F8706A;
+			remoteInfo = NumberTextAnimation;
+		};
+		D775EA3B27382C2900F8706A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D775EA1827382C2700F8706A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D775EA1F27382C2700F8706A;
+			remoteInfo = NumberTextAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D775EA2027382C2700F8706A /* NumberTextAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberTextAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D775EA2327382C2700F8706A /* NumberTextAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTextAnimationApp.swift; sourceTree = "<group>"; };
+		D775EA2527382C2700F8706A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D775EA2727382C2900F8706A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D775EA2A27382C2900F8706A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D775EA3027382C2900F8706A /* NumberTextAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberTextAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D775EA3427382C2900F8706A /* NumberTextAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTextAnimationTests.swift; sourceTree = "<group>"; };
+		D775EA3A27382C2900F8706A /* NumberTextAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberTextAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D775EA3E27382C2900F8706A /* NumberTextAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTextAnimationUITests.swift; sourceTree = "<group>"; };
+		D775EA4027382C2900F8706A /* NumberTextAnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTextAnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D775EA1D27382C2700F8706A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D775EA2D27382C2900F8706A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D775EA3727382C2900F8706A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D775EA1727382C2700F8706A = {
+			isa = PBXGroup;
+			children = (
+				D775EA2227382C2700F8706A /* NumberTextAnimation */,
+				D775EA3327382C2900F8706A /* NumberTextAnimationTests */,
+				D775EA3D27382C2900F8706A /* NumberTextAnimationUITests */,
+				D775EA2127382C2700F8706A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D775EA2127382C2700F8706A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D775EA2027382C2700F8706A /* NumberTextAnimation.app */,
+				D775EA3027382C2900F8706A /* NumberTextAnimationTests.xctest */,
+				D775EA3A27382C2900F8706A /* NumberTextAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D775EA2227382C2700F8706A /* NumberTextAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D775EA2327382C2700F8706A /* NumberTextAnimationApp.swift */,
+				D775EA2527382C2700F8706A /* ContentView.swift */,
+				D775EA2727382C2900F8706A /* Assets.xcassets */,
+				D775EA2927382C2900F8706A /* Preview Content */,
+			);
+			path = NumberTextAnimation;
+			sourceTree = "<group>";
+		};
+		D775EA2927382C2900F8706A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D775EA2A27382C2900F8706A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D775EA3327382C2900F8706A /* NumberTextAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				D775EA3427382C2900F8706A /* NumberTextAnimationTests.swift */,
+			);
+			path = NumberTextAnimationTests;
+			sourceTree = "<group>";
+		};
+		D775EA3D27382C2900F8706A /* NumberTextAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D775EA3E27382C2900F8706A /* NumberTextAnimationUITests.swift */,
+				D775EA4027382C2900F8706A /* NumberTextAnimationUITestsLaunchTests.swift */,
+			);
+			path = NumberTextAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D775EA1F27382C2700F8706A /* NumberTextAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D775EA4427382C2900F8706A /* Build configuration list for PBXNativeTarget "NumberTextAnimation" */;
+			buildPhases = (
+				D775EA1C27382C2700F8706A /* Sources */,
+				D775EA1D27382C2700F8706A /* Frameworks */,
+				D775EA1E27382C2700F8706A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumberTextAnimation;
+			productName = NumberTextAnimation;
+			productReference = D775EA2027382C2700F8706A /* NumberTextAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D775EA2F27382C2900F8706A /* NumberTextAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D775EA4727382C2900F8706A /* Build configuration list for PBXNativeTarget "NumberTextAnimationTests" */;
+			buildPhases = (
+				D775EA2C27382C2900F8706A /* Sources */,
+				D775EA2D27382C2900F8706A /* Frameworks */,
+				D775EA2E27382C2900F8706A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D775EA3227382C2900F8706A /* PBXTargetDependency */,
+			);
+			name = NumberTextAnimationTests;
+			productName = NumberTextAnimationTests;
+			productReference = D775EA3027382C2900F8706A /* NumberTextAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D775EA3927382C2900F8706A /* NumberTextAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D775EA4A27382C2900F8706A /* Build configuration list for PBXNativeTarget "NumberTextAnimationUITests" */;
+			buildPhases = (
+				D775EA3627382C2900F8706A /* Sources */,
+				D775EA3727382C2900F8706A /* Frameworks */,
+				D775EA3827382C2900F8706A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D775EA3C27382C2900F8706A /* PBXTargetDependency */,
+			);
+			name = NumberTextAnimationUITests;
+			productName = NumberTextAnimationUITests;
+			productReference = D775EA3A27382C2900F8706A /* NumberTextAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D775EA1827382C2700F8706A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					D775EA1F27382C2700F8706A = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					D775EA2F27382C2900F8706A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = D775EA1F27382C2700F8706A;
+					};
+					D775EA3927382C2900F8706A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = D775EA1F27382C2700F8706A;
+					};
+				};
+			};
+			buildConfigurationList = D775EA1B27382C2700F8706A /* Build configuration list for PBXProject "NumberTextAnimation" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D775EA1727382C2700F8706A;
+			productRefGroup = D775EA2127382C2700F8706A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D775EA1F27382C2700F8706A /* NumberTextAnimation */,
+				D775EA2F27382C2900F8706A /* NumberTextAnimationTests */,
+				D775EA3927382C2900F8706A /* NumberTextAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D775EA1E27382C2700F8706A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D775EA2B27382C2900F8706A /* Preview Assets.xcassets in Resources */,
+				D775EA2827382C2900F8706A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D775EA2E27382C2900F8706A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D775EA3827382C2900F8706A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D775EA1C27382C2700F8706A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D775EA2627382C2700F8706A /* ContentView.swift in Sources */,
+				D775EA2427382C2700F8706A /* NumberTextAnimationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D775EA2C27382C2900F8706A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D775EA3527382C2900F8706A /* NumberTextAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D775EA3627382C2900F8706A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D775EA3F27382C2900F8706A /* NumberTextAnimationUITests.swift in Sources */,
+				D775EA4127382C2900F8706A /* NumberTextAnimationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D775EA3227382C2900F8706A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D775EA1F27382C2700F8706A /* NumberTextAnimation */;
+			targetProxy = D775EA3127382C2900F8706A /* PBXContainerItemProxy */;
+		};
+		D775EA3C27382C2900F8706A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D775EA1F27382C2700F8706A /* NumberTextAnimation */;
+			targetProxy = D775EA3B27382C2900F8706A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D775EA4227382C2900F8706A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D775EA4327382C2900F8706A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D775EA4527382C2900F8706A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NumberTextAnimation/Preview Content\"";
+				DEVELOPMENT_TEAM = 25SB2NPY44;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nauv.NumberTextAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D775EA4627382C2900F8706A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NumberTextAnimation/Preview Content\"";
+				DEVELOPMENT_TEAM = 25SB2NPY44;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nauv.NumberTextAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D775EA4827382C2900F8706A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25SB2NPY44;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nauv.NumberTextAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NumberTextAnimation.app/NumberTextAnimation";
+			};
+			name = Debug;
+		};
+		D775EA4927382C2900F8706A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25SB2NPY44;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nauv.NumberTextAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NumberTextAnimation.app/NumberTextAnimation";
+			};
+			name = Release;
+		};
+		D775EA4B27382C2900F8706A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25SB2NPY44;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nauv.NumberTextAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NumberTextAnimation;
+			};
+			name = Debug;
+		};
+		D775EA4C27382C2900F8706A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25SB2NPY44;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nauv.NumberTextAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NumberTextAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D775EA1B27382C2700F8706A /* Build configuration list for PBXProject "NumberTextAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D775EA4227382C2900F8706A /* Debug */,
+				D775EA4327382C2900F8706A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D775EA4427382C2900F8706A /* Build configuration list for PBXNativeTarget "NumberTextAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D775EA4527382C2900F8706A /* Debug */,
+				D775EA4627382C2900F8706A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D775EA4727382C2900F8706A /* Build configuration list for PBXNativeTarget "NumberTextAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D775EA4827382C2900F8706A /* Debug */,
+				D775EA4927382C2900F8706A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D775EA4A27382C2900F8706A /* Build configuration list for PBXNativeTarget "NumberTextAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D775EA4B27382C2900F8706A /* Debug */,
+				D775EA4C27382C2900F8706A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D775EA1827382C2700F8706A /* Project object */;
+}
